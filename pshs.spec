@@ -1,6 +1,6 @@
 Name:		pshs
 Summary:	Pretty small HTTP server - a command-line tool to share files
-Version:	0.1
+Version:	0.2.1
 Release:	1
 Source0:	https://github.com/mgorny/pshs/%{name}-%{version}.tar.bz2
 URL:		https://github.com/mgorny/pshs/
