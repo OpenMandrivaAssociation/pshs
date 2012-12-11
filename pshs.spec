@@ -25,3 +25,14 @@ Pretty small HTTP server - a command-line tool to share files
 
 %files
 %{_bindir}/%name
+
+
+%changelog
+* Mon Jun 25 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.2.1-1
++ Revision: 806801
+- version update 0.2.1
+
+* Fri Nov 11 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.1-1
++ Revision: 730165
+- imported package pshs
+
