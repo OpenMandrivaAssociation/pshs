@@ -1,14 +1,13 @@
-Name:		pshs
 Summary:	Pretty small HTTP server - a command-line tool to share files
+Name:		pshs
 Version:	0.2.1
 Release:	1
-Source0:	https://github.com/mgorny/pshs/%{name}-%{version}.tar.bz2
-URL:		https://github.com/mgorny/pshs/
 Group:		Networking/WWW 
-License:	GPL
-BuildRequires:	gcc make automake libtool
-BuildRequires:	libevent-devel
-
+License:	GPLv2
+Url:		https://github.com/mgorny/pshs/
+Source0:	https://github.com/mgorny/pshs/%{name}-%{version}.tar.bz2
+BuildRequires:	libtool
+BuildRequires:	pkgconfig(libevent)
 
 %description
 Pretty small HTTP server - a command-line tool to share files
@@ -24,15 +23,5 @@ Pretty small HTTP server - a command-line tool to share files
 %makeinstall_std
 
 %files
-%{_bindir}/%name
-
-
-%changelog
-* Mon Jun 25 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.2.1-1
-+ Revision: 806801
-- version update 0.2.1
-
-* Fri Nov 11 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.1-1
-+ Revision: 730165
-- imported package pshs
+%{_bindir}/%{name}
 
