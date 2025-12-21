@@ -6,6 +6,11 @@ Group:		Networking/WWW
 License:	GPLv2
 Url:		https://github.com/mgorny/pshs/
 Source0:	https://github.com/mgorny/pshs/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libtool
 BuildRequires:	pkgconfig(libevent)
 
